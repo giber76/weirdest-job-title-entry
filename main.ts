@@ -13,6 +13,11 @@ import { join } from 'node:path';
 // The title: a real-sounding tech-era job with one gloriously specific
 // twist — someone whose whole career is apologising on behalf of cars
 // that drive themselves. 39 characters, nothing else.
+//
+// Why this title: "Senior" gives it the familiar corporate-ladder frame
+// (a real job, with a promotion path), "Apologizer" is the absurd role,
+// and "for Self-Driving Cars" is the one hilariously specific twist —
+// the cars cause the trouble, a human takes the blame.
 const TITLE = 'Senior Apologizer for Self-Driving Cars';
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
